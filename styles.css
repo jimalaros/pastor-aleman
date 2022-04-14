@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedorTitulo{
+  font-family: "Shadows Into Light Two", cursive;
+  background-color: rgba(149, 169, 165, 0.5);
+  color: white;
+  font-size: 40px;
+  position: relative;
+  top: 72px;
+  width: 100%;
+}
+
+#fondo {
+  background-image: url("raza-de-perro-pastor-aleman-e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 218vh;
+}
+
+#titulo {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+#titulo h1{
+    float: left;
+}
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+#cabeza {
+  color: white;
+  display: flex;
+  position: fixed;
+  height: auto;
+  background-color: rgba(149, 169, 165, 0.5);
+  padding: 5px;
+  width: 100%;
+}
+
+#cabeza h1 {
+  float: left;
+}
+
+.menu {
+  float: right;
+  display: block;
+  margin-top: 10px;
+}
+
+.menu li {
+  list-style: none;
+  float: right;
+  margin-top: 5px;
+  width: auto;
+}
+
+.menu li:hover{
+    display: block;
+    background-color: rgba(149, 169, 165, 0.5);
+}
+
+.contenedor a{
+    color: white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+}
+
+.contenedorPrincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+}
+
+#principal {
+  color: white;
+  margin: auto;
+  position: relative;
+  font-family: "Shadows Into Light Two", cursive;
+  padding: 10px;
+  top: 55%;
+}
+
+.video video{
+  justify-content: center;
+  width:"320";
+  height:"240";
+}
